@@ -1,8 +1,7 @@
 # GPS Tracking and Google Integration Test
 This project is a proof-of-concept to demonstrate:
-
-    - Collection of GPS coordinates via a Windows app using the Sensor API
-    - Verification and display of tracked route via Google Maps API
+ * Collection of GPS coordinates via a Windows app using the Sensor API
+ *  Verification and display of tracked route via Google Maps API
 
 ## Layers involved and test requirements:
 
@@ -22,9 +21,8 @@ This project is a proof-of-concept to demonstrate:
  - What should be done if coordinates do not change? Continue recording or wait for movement? 
 
 ## Usage
-
-    1 - Ensure the requirements listed above are met.
-    3 - Compile and run GpsTest.exe to capture some coordinates.  Output is recorded to {exe_dir}\GPS-Output-yyyy-mm-dd hh-mm-ss.csv) on save.
-    4 - Set the project GpsTest.WebClient as Startup and run it.
-    5 - Browse to and upload the generated output file to view your route!
+ 1 - Ensure the requirements listed above are met.
+ 3 - Compile and run GpsTest.exe to capture some coordinates.  Output is recorded to {exe_dir}\GPS-Output-yyyy-mm-dd hh-mm-ss.csv) on save.
+ 4 - Set the project GpsTest.WebClient as Startup and run it.
+ 5 - Browse to and upload the generated output file to view your route!
 

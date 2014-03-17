@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".depends", ".depends", "{26
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".docs", ".docs", "{7305BD98-B763-4374-A62F-002288985DFD}"
 	ProjectSection(SolutionItems) = preProject
-		docs\ReadMe.md = docs\ReadMe.md
+		ReadMe.md = ReadMe.md
 	EndProjectSection
 EndProject
 Global
