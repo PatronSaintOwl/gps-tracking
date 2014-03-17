@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GpsTest.Cmd", "GpsTest.Cmd\GpsTest.Cmd.csproj", "{F2DEEE58-35AC-4B36-A679-D91519BEC508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GpsTest.WebClient", "GpsTest.WebClient\GpsTest.WebClient.csproj", "{74F10034-AAD6-4C4B-BB84-DEAF4F9DA8B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".sampledata", ".sampledata", "{5909977B-BDFF-402C-AC78-1D62029F1C89}"
+	ProjectSection(SolutionItems) = preProject
+		sampledata\GPS-Output-2013-09-17 06-28-10.csv = sampledata\GPS-Output-2013-09-17 06-28-10.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".depends", ".depends", "{26984A0D-D3B0-4427-9297-B9A810A7B809}"
+	ProjectSection(SolutionItems) = preProject
+		depends\gps7s64.exe = depends\gps7s64.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".docs", ".docs", "{7305BD98-B763-4374-A62F-002288985DFD}"
+	ProjectSection(SolutionItems) = preProject
+		docs\ReadMe.md = docs\ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://dentfs1:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GpsTest.Cmd\\GpsTest.Cmd.csproj
+		SccProjectName1 = GpsTest.Cmd
+		SccLocalPath1 = GpsTest.Cmd
+		SccProjectUniqueName2 = GpsTest.WebClient\\GpsTest.WebClient.csproj
+		SccProjectName2 = GpsTest.WebClient
+		SccLocalPath2 = GpsTest.WebClient
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2DEEE58-35AC-4B36-A679-D91519BEC508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DEEE58-35AC-4B36-A679-D91519BEC508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DEEE58-35AC-4B36-A679-D91519BEC508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DEEE58-35AC-4B36-A679-D91519BEC508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F10034-AAD6-4C4B-BB84-DEAF4F9DA8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F10034-AAD6-4C4B-BB84-DEAF4F9DA8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F10034-AAD6-4C4B-BB84-DEAF4F9DA8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F10034-AAD6-4C4B-BB84-DEAF4F9DA8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
